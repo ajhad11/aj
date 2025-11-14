@@ -102,7 +102,7 @@ const ContactPage = () => {
         <p
           data-aos="fade-up"
           data-aos-duration="1100"
-          className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2"
+          className="max-w-2xl mx-auto mt-2 text-sm text-slate-400 md:text-base"
         >
           Got a question? Send me a message, and I'll get back to you soon.
         </p>
@@ -118,7 +118,7 @@ const ContactPage = () => {
             data-aos-duration="1200"
             className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-5 py-10 sm:p-10 transform transition-all duration-300 hover:shadow-[#6366f1]/10"
           >
-            <div className="flex justify-between items-start mb-8">
+            <div className="flex items-start justify-between mb-8">
               <div>
                 <h2 className="text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
                   Get in Touch
@@ -126,7 +126,7 @@ const ContactPage = () => {
                 <p className="text-gray-400">
                   Have something to discuss? Send me a message and let's talk.
                 </p>
-                <p className="text-gray-300 mt-2 flex items-center gap-2">
+                <p className="flex items-center gap-2 mt-2 text-gray-300">
                   <Mail className="w-4 h-4 text-[#6366f1]" />
                   ajhadk453@gmail.com
                 </p>
@@ -206,7 +206,7 @@ const ContactPage = () => {
               </button>
             </form>
 
-            <div className="mt-10 pt-6 border-t border-white/10 flex justify-center space-x-6">
+            <div className="flex justify-center pt-6 mt-10 space-x-6 border-t border-white/10">
               <SocialLinks />
             </div>
           </div>
