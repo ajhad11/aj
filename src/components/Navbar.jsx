@@ -76,7 +76,7 @@ const Navbar = () => {
                         <a
                             href="#Home"
                             onClick={(e) => scrollToSection(e, "#Home")}
-                            className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#f87171] to-[#ef4444] bg-clip-text text-transparent"
+                            className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#f87171] to-[#3b82f6] bg-clip-text text-transparent"
                         >
                             Ajhad k
                         </a>
@@ -94,14 +94,14 @@ const Navbar = () => {
                                 >
                                     <span
                                         className={`relative z-10 transition-colors duration-300 ${activeSection === item.href.substring(1)
-                                            ? "bg-gradient-to-r from-[#ef4444] to-[#f87171] bg-clip-text text-transparent font-semibold"
+                                            ? "bg-gradient-to-r from-[#3b82f6] to-[#f87171] bg-clip-text text-transparent font-semibold"
                                             : "text-gray-800 group-hover:text-gray-900"
                                             }`}
                                     >
                                         {item.label}
                                     </span>
                                     <span
-                                        className={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#ef4444] to-[#f87171] transform origin-left transition-transform duration-300 ${activeSection === item.href.substring(1)
+                                        className={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#3b82f6] to-[#f87171] transform origin-left transition-transform duration-300 ${activeSection === item.href.substring(1)
                                             ? "scale-x-100"
                                             : "scale-x-0 group-hover:scale-x-100"
                                             }`}
@@ -144,7 +144,7 @@ const Navbar = () => {
                                 href={item.href}
                                 onClick={(e) => scrollToSection(e, item.href)}
                                 className={`block px-4 py-3 text-lg font-medium transition-all duration-300 ease ${activeSection === item.href.substring(1)
-                                    ? "bg-gradient-to-r from-[#ef4444] to-[#f87171] bg-clip-text text-transparent font-semibold"
+                                    ? "bg-gradient-to-r from-[#3b82f6] to-[#f87171] bg-clip-text text-transparent font-semibold"
                                     : "text-gray-800 hover:text-gray-900"
                                     }`}
                                 style={{

@@ -16,7 +16,7 @@ const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-2 px-[5%]">
     <div className="inline-block relative group">
       <h2
-        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]"
+        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#f87171]"
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
@@ -177,7 +177,7 @@ const AboutPage = () => {
     () => [
       {
         icon: Code,
-        color: "from-[#ef4444] to-[#f87171]",
+        color: "from-[#3b82f6] to-[#f87171]",
         value: totalProjects,
         label: "Total Projects",
         description: "Innovative web solutions crafted",
@@ -185,7 +185,7 @@ const AboutPage = () => {
       },
       {
         icon: Award,
-        color: "from-[#f87171] to-[#ef4444]",
+        color: "from-[#f87171] to-[#3b82f6]",
         value: totalCertificates,
         label: "Certificates",
         description: "Professional skills validated",
@@ -193,7 +193,7 @@ const AboutPage = () => {
       },
       {
         icon: Globe,
-        color: "from-[#ef4444] to-[#f87171]",
+        color: "from-[#3b82f6] to-[#f87171]",
         value: YearExperience,
         label: "Years of Experience",
         description: "Continuous learning journey",
@@ -218,7 +218,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#f87171]">
                 Hello, I'm
               </span>
               <span
@@ -246,7 +246,7 @@ const AboutPage = () => {
                 <button
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#ef4444] to-[#f87171] text-gray-900 font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl animate-bounce-slow"
+                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#3b82f6] to-[#f87171] text-gray-900 font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl animate-bounce-slow"
                 >
                   <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
                 </button>

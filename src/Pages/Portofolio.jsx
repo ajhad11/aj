@@ -181,10 +181,10 @@ export default function FullWidthTabs() {
     <div className="md:px-[10%] px-[5%] w-full sm:mt-0 mt-[3rem] bg-[#ffffff] overflow-hidden" id="Portofolio">
       {/* Header section - unchanged */}
       <div className="text-center pb-10" data-aos="fade-up" data-aos-duration="1000">
-        <h2 className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]">
+        <h2 className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#f87171]">
           <span style={{
-            color: '#ef4444',
-            backgroundImage: 'linear-gradient(45deg, #ef4444 10%, #f87171 93%)',
+            color: '#3b82f6',
+            backgroundImage: 'linear-gradient(45deg, #3b82f6 10%, #f87171 93%)',
             WebkitBackgroundClip: 'text',
             backgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
