@@ -16,7 +16,7 @@ const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-2 px-[5%]">
     <div className="inline-block relative group">
       <h2
-        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] to-[#fbbf24]"
+        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]"
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
@@ -24,7 +24,7 @@ const Header = memo(() => (
       </h2>
     </div>
     <p
-      className="mt-2 text-gray-400 max-w-2xl mx-auto text-base sm:text-lg flex items-center justify-center gap-2"
+      className="mt-2 text-gray-600 max-w-2xl mx-auto text-base sm:text-lg flex items-center justify-center gap-2"
       data-aos="zoom-in-up"
       data-aos-duration="800"
     >
@@ -85,10 +85,10 @@ const StatCard = memo(
 
         <div className="flex items-center justify-between mb-4">
           <div className="w-16 h-16 rounded-full flex items-center justify-center bg-white/10 transition-transform group-hover:rotate-6">
-            <Icon className="w-8 h-8 text-white" />
+            <Icon className="w-8 h-8 text-gray-900" />
           </div>
           <span
-            className="text-4xl font-bold text-white"
+            className="text-4xl font-bold text-gray-900"
             data-aos="fade-up-left"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
@@ -108,14 +108,14 @@ const StatCard = memo(
           </p>
           <div className="flex items-center justify-between">
             <p
-              className="text-xs text-gray-400"
+              className="text-xs text-gray-600"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-anchor-placement="top-bottom"
             >
               {description}
             </p>
-            <ArrowUpRight className="w-4 h-4 text-white/50 group-hover:text-white transition-colors" />
+            <ArrowUpRight className="w-4 h-4 text-gray-900/50 group-hover:text-gray-900 transition-colors" />
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@ const AboutPage = () => {
     () => [
       {
         icon: Code,
-        color: "from-[#10b981] to-[#fbbf24]",
+        color: "from-[#ef4444] to-[#f87171]",
         value: totalProjects,
         label: "Total Projects",
         description: "Innovative web solutions crafted",
@@ -185,7 +185,7 @@ const AboutPage = () => {
       },
       {
         icon: Award,
-        color: "from-[#fbbf24] to-[#10b981]",
+        color: "from-[#f87171] to-[#ef4444]",
         value: totalCertificates,
         label: "Certificates",
         description: "Professional skills validated",
@@ -193,7 +193,7 @@ const AboutPage = () => {
       },
       {
         icon: Globe,
-        color: "from-[#10b981] to-[#fbbf24]",
+        color: "from-[#ef4444] to-[#f87171]",
         value: YearExperience,
         label: "Years of Experience",
         description: "Continuous learning journey",
@@ -205,7 +205,7 @@ const AboutPage = () => {
 
   return (
     <div
-      className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
+      className="h-auto pb-[10%] text-gray-900 overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
       id="About"
     >
       <Header />
@@ -218,7 +218,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] to-[#fbbf24]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]">
                 Hello, I'm
               </span>
               <span
@@ -231,7 +231,7 @@ const AboutPage = () => {
             </h2>
 
             <p
-              className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed text-justify pb-4 sm:pb-0"
+              className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed text-justify pb-4 sm:pb-0"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
@@ -246,7 +246,7 @@ const AboutPage = () => {
                 <button
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#10b981] to-[#fbbf24] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl animate-bounce-slow"
+                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#ef4444] to-[#f87171] text-gray-900 font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl animate-bounce-slow"
                 >
                   <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
                 </button>
@@ -255,7 +255,7 @@ const AboutPage = () => {
                 <button
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg border border-[#fbbf24]/50 text-[#fbbf24] font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 hover:bg-[#fbbf24]/10 animate-bounce-slow delay-200"
+                  className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg border border-[#f87171]/50 text-[#f87171] font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 hover:bg-[#f87171]/10 animate-bounce-slow delay-200"
                 >
                   <Code className="w-4 h-4 sm:w-5 sm:h-5" /> View Projects
                 </button>

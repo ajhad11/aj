@@ -67,7 +67,7 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed w-full top-0 z-50 transition-all duration-500 bg-[#030014] border-b border-white/5 backdrop-blur-md pt-3 sm:pt-5`}
+            className={`fixed w-full top-0 z-50 transition-all duration-500 bg-[#ffffff] border-b border-white/5 backdrop-blur-md pt-3 sm:pt-5`}
         >
             <div className="mx-auto px-3 sm:px-6 lg:px-[10%]">
                 <div className="flex items-center justify-between h-14 sm:h-16">
@@ -76,7 +76,7 @@ const Navbar = () => {
                         <a
                             href="#Home"
                             onClick={(e) => scrollToSection(e, "#Home")}
-                            className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#fbbf24] to-[#10b981] bg-clip-text text-transparent"
+                            className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#f87171] to-[#ef4444] bg-clip-text text-transparent"
                         >
                             Ajhad k
                         </a>
@@ -94,14 +94,14 @@ const Navbar = () => {
                                 >
                                     <span
                                         className={`relative z-10 transition-colors duration-300 ${activeSection === item.href.substring(1)
-                                            ? "bg-gradient-to-r from-[#10b981] to-[#fbbf24] bg-clip-text text-transparent font-semibold"
-                                            : "text-[#e2d3fd] group-hover:text-white"
+                                            ? "bg-gradient-to-r from-[#ef4444] to-[#f87171] bg-clip-text text-transparent font-semibold"
+                                            : "text-gray-800 group-hover:text-gray-900"
                                             }`}
                                     >
                                         {item.label}
                                     </span>
                                     <span
-                                        className={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#10b981] to-[#fbbf24] transform origin-left transition-transform duration-300 ${activeSection === item.href.substring(1)
+                                        className={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#ef4444] to-[#f87171] transform origin-left transition-transform duration-300 ${activeSection === item.href.substring(1)
                                             ? "scale-x-100"
                                             : "scale-x-0 group-hover:scale-x-100"
                                             }`}
@@ -115,7 +115,7 @@ const Navbar = () => {
                     <div className="md:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className={`relative p-2 text-[#e2d3fd] hover:text-white transition-transform duration-300 ease-in-out transform ${isOpen ? "rotate-90 scale-125" : "rotate-0 scale-100"
+                            className={`relative p-2 text-gray-800 hover:text-gray-900 transition-transform duration-300 ease-in-out transform ${isOpen ? "rotate-90 scale-125" : "rotate-0 scale-100"
                                 }`}
                         >
                             {isOpen ? (
@@ -130,7 +130,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Overlay */}
             <div
-                className={`md:hidden h-2/5 fixed inset-0 bg-[#030014] transition-all duration-300 ease-in-out ${isOpen
+                className={`md:hidden h-2/5 fixed inset-0 bg-[#ffffff] transition-all duration-300 ease-in-out ${isOpen
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-[-100%] pointer-events-none"
                     }`}
@@ -144,8 +144,8 @@ const Navbar = () => {
                                 href={item.href}
                                 onClick={(e) => scrollToSection(e, item.href)}
                                 className={`block px-4 py-3 text-lg font-medium transition-all duration-300 ease ${activeSection === item.href.substring(1)
-                                    ? "bg-gradient-to-r from-[#10b981] to-[#fbbf24] bg-clip-text text-transparent font-semibold"
-                                    : "text-[#e2d3fd] hover:text-white"
+                                    ? "bg-gradient-to-r from-[#ef4444] to-[#f87171] bg-clip-text text-transparent font-semibold"
+                                    : "text-gray-800 hover:text-gray-900"
                                     }`}
                                 style={{
                                     transitionDelay: `${index * 100}ms`,

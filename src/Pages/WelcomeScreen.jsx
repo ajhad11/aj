@@ -40,7 +40,7 @@ const IconButton = ({ Icon }) => (
   <div className="relative transition-transform duration-300 group hover:scale-110">
     <div className="absolute transition duration-300 rounded-full -inset-2 bg-gradient-to-r from-indigo-600 to-purple-600 blur opacity-30 group-hover:opacity-75" />
     <div className="relative p-2 border rounded-full sm:p-3 bg-black/50 backdrop-blur-sm border-white/10">
-      <Icon className="w-5 h-5 text-white sm:w-6 sm:h-6 md:w-8 md:h-8" />
+      <Icon className="w-5 h-5 text-gray-900 sm:w-6 sm:h-6 md:w-8 md:h-8" />
     </div>
   </div>
 );
@@ -94,7 +94,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
     <AnimatePresence>
       {isLoading && (
         <motion.div
-          className="fixed inset-0 bg-[#030014]"
+          className="fixed inset-0 bg-[#ffffff]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit="exit"

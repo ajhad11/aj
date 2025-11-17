@@ -22,7 +22,7 @@ const ToggleButton = ({ onClick, isShowingMore }) => (
     className="
       px-3 py-1.5
       text-slate-300 
-      hover:text-white 
+      hover:text-gray-900 
       text-sm 
       font-medium 
       transition-all 
@@ -178,13 +178,13 @@ export default function FullWidthTabs() {
   const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
 
   return (
-    <div className="md:px-[10%] px-[5%] w-full sm:mt-0 mt-[3rem] bg-[#030014] overflow-hidden" id="Portofolio">
+    <div className="md:px-[10%] px-[5%] w-full sm:mt-0 mt-[3rem] bg-[#ffffff] overflow-hidden" id="Portofolio">
       {/* Header section - unchanged */}
       <div className="text-center pb-10" data-aos="fade-up" data-aos-duration="1000">
-        <h2 className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#10b981] to-[#fbbf24]">
+        <h2 className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#ef4444] to-[#f87171]">
           <span style={{
-            color: '#10b981',
-            backgroundImage: 'linear-gradient(45deg, #10b981 10%, #fbbf24 93%)',
+            color: '#ef4444',
+            backgroundImage: 'linear-gradient(45deg, #ef4444 10%, #f87171 93%)',
             WebkitBackgroundClip: 'text',
             backgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
